@@ -23,17 +23,14 @@ modules:
       copr:
         - atim/starship
         - ryanabx/cosmic-epoch
+        
     install:
       packages:
         - micro
         - starship
         - fastfetch
         - cosmic-desktop
-    replace:
-      - from-repo: copr:copr.fedorainfracloud.org:coprs:ryanabx:patched-rpms
-        packages:
-          - flatpak
-        
+          
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
