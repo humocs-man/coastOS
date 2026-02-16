@@ -30,7 +30,7 @@ modules:
         - fastfetch
         - cosmic-desktop
     replace:
-      - from-repo: copr:copr.fedorainfracloud.org:ryanabx:patched-rpms
+      - from-repo: copr:copr.fedorainfracloud.org:coprs:ryanabx:patched-rpms
         packages:
           - flatpak
         
