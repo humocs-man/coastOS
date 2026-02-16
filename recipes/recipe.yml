@@ -58,7 +58,8 @@ modules:
   - type: brew 
     brew-analytics: false
     auto-upgrade: true
-    upgrade-interval: ['0d','6h','0m']
+    upgrade-interval: '6h'
+    upgrade-wait-after-boot: '20m'
     
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
